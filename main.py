@@ -28,5 +28,3 @@ if will_rain:
     message = client.messages.create(body='It is going to rain today. Remember to bring an umbrella ☔.',
                                      from_='From Number',
                                      to='To Number')
-
-    print(message.status)
